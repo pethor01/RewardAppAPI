@@ -65,6 +65,7 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
   #for Factory Bot
   config.include FactoryBot::Syntax::Methods
+
   #database cleaner
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction

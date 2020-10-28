@@ -22,8 +22,6 @@ CREATE TYPE public.user_role AS ENUM (
 
 SET default_tablespace = '';
 
-SET default_table_access_method = heap;
-
 --
 -- Name: ar_internal_metadata; Type: TABLE; Schema: public; Owner: -
 --
